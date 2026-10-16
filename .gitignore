@@ -55,3 +55,26 @@ CodeCoverage/
 *.VisualState.xml
 TestResult.xml
 nunit-*.xml
+
+# .NET
+**/bin/
+**/obj/
+.vs/
+*.user
+
+# Angular
+**/node_modules/
+**/dist/
+**/.angular/
+
+# Secrets and local configuration
+.env
+.env.*
+!.env.example
+**/appsettings.Local.json
+
+# IDE and OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
